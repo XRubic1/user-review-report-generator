@@ -5,7 +5,7 @@ import { ClientsPage } from './pages/ClientsPage'
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/user-review-report-generator">
       <div className="app-shell">
         <Navbar />
         <main className="main">
